@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kumar Sanu - Portfolio</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:#172033;background:#f5f7fb}
+header{background:#0b2347;color:white;padding:18px 7%;display:flex;justify-content:space-between;align-items:center}
+header h1{margin:0;font-size:28px}
+nav a{color:white;text-decoration:none;margin-left:24px}
+.hero{max-width:1100px;margin:auto;padding:70px 30px;display:flex;align-items:center;justify-content:space-between;gap:40px}
+.hero h2{font-size:42px;margin:10px 0}.hero h3{color:#1555aa;font-size:25px}
+.hero p{font-size:18px;line-height:1.7;max-width:650px}
+.btn{display:inline-block;background:#1555aa;color:white;padding:12px 20px;border-radius:6px;text-decoration:none}
+.photo{width:220px;height:220px;border-radius:50%;background:#dbe7f7;display:flex;align-items:center;justify-content:center;font-size:70px;font-weight:bold;color:#1555aa;border:6px solid white;box-shadow:0 5px 20px #ccd3df}
+section{max-width:1100px;margin:25px auto;padding:35px 30px;background:white;border-radius:12px}
+section h2{color:#0b2347}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{border:1px solid #ddd;border-radius:10px;padding:20px}.skills li{margin:10px 0}
+.project-card{border:1px solid #ddd;border-radius:10px;padding:20px;margin:15px 0}
+table{width:100%;border-collapse:collapse}th,td{border:1px solid #ddd;padding:12px;text-align:left}th{background:#eef3f9}
+footer{background:#0b2347;color:white;text-align:center;padding:20px;margin-top:40px}
+@media(max-width:750px){header,.hero{flex-direction:column;align-items:flex-start}.hero h2{font-size:32px}.grid{grid-template-columns:1fr}nav{margin-top:12px}nav a{margin:0 12px 0 0}}
+</style>
+</head>
+<body>
+<header>
+<div><h1>Kumar Sanu</h1><div>Web Developer & Programmer</div></div>
+<nav><a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+</header>
+
+<main id="home" class="hero">
+<div>
+<h2>Hi, I'm Kumar Sanu</h2>
+<h3>Web Developer & Programmer</h3>
+<p>I am a passionate learner interested in web development, programming, machine learning and building useful applications. I enjoy learning new technologies and improving my problem-solving skills.</p>
+<a class="btn" href="#contact">Contact Me</a>
+</div>
+<div class="photo" aria-label="Kumar Sanu profile avatar">KS</div>
+</main>
+
+<section id="about">
+<h2>About Me</h2>
+<p>I am a B.Tech Computer Science and Engineering student at GLA University, Greater Noida. I am currently in my 2nd year and developing my skills in programming, web development and machine learning. My goal is to become a strong software/full-stack developer and build practical applications that solve real-world problems.</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
+<div class="grid">
+<div class="card"><h3>Frontend</h3><ul class="skills"><li>HTML</li><li>CSS</li></ul></div>
+<div class="card"><h3>Programming</h3><ul class="skills"><li>Python</li><li>Java</li></ul></div>
+<div class="card"><h3>Currently Learning</h3><ul class="skills"><li>Web Development</li><li>Git &amp; GitHub</li></ul></div>
+</div>
+</section>
+
+<section id="education">
+<h2>Education</h2>
+<table>
+<tr><th>Qualification</th><th>Institution</th><th>Year</th><th>Result / Status</th></tr>
+<tr><td>10th</td><td>Delhi Public School, Nawada, Bihar</td><td>2023</td><td>88%</td></tr>
+<tr><td>12th</td><td>Delhi Public School, Nawada, Bihar</td><td>2025</td><td>84%</td></tr>
+<tr><td>B.Tech CSE</td><td>GLA University, Greater Noida</td><td>2025 - 2029</td><td>2nd Year / 7.8 CGPA</td></tr>
+</table>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+<div class="project-card">
+<h3>House Price Prediction using Machine Learning</h3>
+<p>A machine learning project that predicts house prices using relevant property features. The project focuses on preparing data, training a prediction model and estimating prices based on input features.</p>
+</div>
+<div class="project-card">
+<h3>Traveller Explorer</h3>
+<p>A travel-focused web application concept that helps users explore destinations and discover useful information for planning trips in a simple and organized way.</p>
+</div>
+<div class="project-card">
+<h3>Lost &amp; Found Object Portal</h3>
+<p>A college-focused platform concept where students can report lost or found items and connect with others to help return belongings to their rightful owners.</p>
+</div>
+</section>
+
+<section id="contact">
+<h2>Connect with Me</h2>
+<p>Email: <a href="mailto:kumar.sanu_cs25@gla.ac.in">kumar.sanu_cs25@gla.ac.in</a></p>
+<p>GitHub: <a href="https://github.com/Kumarsanu577-byte" target="_blank">github.com/Kumarsanu577-byte</a></p>
+</section>
+
+<footer>© 2026 Kumar Sanu. All Rights Reserved.</footer>
+</body>
+</html>
